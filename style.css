@@ -112,6 +112,7 @@ body {
   position: absolute;
   display: flex;
   font-size:2.7vmin;
+
   justify-content: center;
   overflow: hidden;
   top: 53%;
