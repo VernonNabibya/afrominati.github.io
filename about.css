@@ -74,11 +74,11 @@ body {
 
 #nairobisins{
   position: absolute;
-  top:42%;
+  top:43%;
   left: 50%;
   color:#FF3131;
 
-  font-size:23px ;
+  font-size:3vmin ;
 
 
   display: flex;
