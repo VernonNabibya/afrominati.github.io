@@ -34,7 +34,7 @@ body {
 }
 
 .counter {
-  font-size: 75px;
+  font-size: 15vmin;
   align-items: center;
   justify-content: center;
 
@@ -60,7 +60,7 @@ body {
   color: white;
   text-decoration: none;
 
-  font-size: 12px;
+  font-size: 1.8vmin;
 
 }
 /* #contact{
@@ -77,7 +77,7 @@ body {
   top:20%;
   left: 4%;
 
-  font-size: 32px;
+  font-size: 4vmin;
 
 
   /* display: flex;
@@ -101,8 +101,8 @@ body {
 #target_amount{
   position: absolute;
   display: flex;
-  top: 110%;
-  font-size:20px
+  top: 100%;
+  font-size:4vmin;
 
 }
 
@@ -110,10 +110,10 @@ body {
   color:#FF3131;
   position: absolute;
   display: flex;
-  font-size:17px;
+  font-size:3vmin;
   justify-content: center;
   overflow: hidden;
-  top: 55%;
+  top: 60%;
   left: 50%;
   margin-right: -50%;
   align-items: center;
@@ -141,7 +141,7 @@ body {
   display: flex;
   justify-content:center;
   overflow: hidden;
-  top: 68%;
+  top: 70%;
   left: 50%;
   align-items:center;
   transform: translate(-50%, -50%);
@@ -153,18 +153,18 @@ body {
 .button-23 {
   background-color: #FFFFFF;
   border: 1px solid #222222;
-  border-radius: 15px;
+  border-radius: 13px;
   box-sizing: border-box;
   color: #222222;
   cursor: pointer;
   display: inline-block;
   font-family: 'Roboto Mono', sans-serif;
-  font-size: 20px;
+  font-size: 3vmin;
   font-weight:bold;
   line-height: 20px;
   margin: 0;
   outline: none;
-  padding: 13px 23px;
+  padding: 1.8vh 2.3vw;
   position: relative;
   text-align: center;
   text-decoration: none;
