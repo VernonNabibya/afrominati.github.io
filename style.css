@@ -55,7 +55,7 @@ body {
 
 #about_afrominati{
   position: absolute;
-  bottom:15%;
+  bottom:18%;
   right: 4%;
   color: white;
   text-decoration: none;
@@ -76,6 +76,7 @@ body {
   position: absolute;
   top:20%;
   left: 4%;
+  color: white;
 
   font-size:25px ;
 
