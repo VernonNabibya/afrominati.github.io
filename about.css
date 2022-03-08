@@ -74,7 +74,7 @@ body {
 
 #nairobisins{
   position: absolute;
-  top:43%;
+  top:35%;
   left: 50%;
   color:#FF3131;
 
@@ -111,11 +111,11 @@ body {
   color:white;
   position: absolute;
   display: flex;
-  font-size:2.7vmin;
+  font-size:3vmin;
   text-align: center;
   justify-content: center;
   overflow: hidden;
-  top: 50%;
+  top: 42%;
   left: 50%;
   margin-right: -50%;
   align-items: center;
@@ -137,7 +137,7 @@ body {
   display: flex;
   justify-content:center;
   overflow: hidden;
-  top: 65%;
+  top: 60%;
   left: 50%;
   align-items:center;
   transform: translate(-50%, -50%);
