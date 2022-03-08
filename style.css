@@ -194,13 +194,20 @@ body {
 }
   opacity: 1;
 
-@media (max-width: 580px) {
+/* @media (max-width: 580px) {
   body {
     flex-direction: column;
   }
 }
-@media only screen and (orientation:portrait){
+@media only screen and (orientation:portrait){ */
   body {
     height: 100vh;
   }
+
+  @media screen and (orientation: landscape) {
+  body {
+
+      height: : 100vw;
+      transform: rotate(360deg);
+    }
 }
