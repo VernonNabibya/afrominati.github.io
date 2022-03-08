@@ -153,18 +153,18 @@ body {
 .button-23 {
   background-color: #FFFFFF;
   border: 1px solid #222222;
-  border-radius: 13px;
+  border-radius: 14px;
   box-sizing: border-box;
   color: #222222;
   cursor: pointer;
   display: inline-block;
   font-family: 'Roboto Mono', sans-serif;
   font-size: 3vmin;
-  font-weight:bold;
+  font-weight:700;
   line-height: 20px;
   margin: 0;
   outline: none;
-  padding: 1.8vh 2.3vw;
+  padding: 2vh 2.3vw;
   position: relative;
   text-align: center;
   text-decoration: none;
