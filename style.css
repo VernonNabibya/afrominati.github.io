@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:black;
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100vh;
+  overflow:hidden;
+  margin: 0;
+}
+
+.counter-container {
+  padding: 10,10;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+
+
+
+
+}
+
+.counter {
+  font-size: 75px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* #bars{
+  position: absolute;
+  top:5%;
+  right: 4%;
+  font-size: 23px;
+
+} */
+
+#afrominati_menu{
+  flex-direction:row;
+
+}
+
+#about_afrominati{
+  position: absolute;
+  top:5%;
+  right: 4%;
+  color: white;
+  text-decoration: none;
+
+  font-size: 12px;
+
+}
+/* #contact{
+  position: absolute;
+  top:5%;
+  right: 16%;
+
+  font-size: 13px;
+
+} */
+
+#afrominati{
+  position: absolute;
+  top:20%;
+  left: 4%;
+
+  font-size: 32px;
+
+
+  /* display: flex;
+  justify-content: center;
+  overflow: hidden;
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  align-items: center;
+  transform: translate(-50%, -50%); */
+
+
+}
+
+.fas fa-bars{
+  position: absolute;
+  top:7%;
+  left: 7%;
+  font-size: 32px;
+}
+#target_amount{
+  position: absolute;
+  display: flex;
+  top: 110%;
+  font-size:20px
+
+}
+
+#ideas{
+  color:#FF3131;
+  position: absolute;
+  display: flex;
+  font-size:17px;
+  justify-content: center;
+  overflow: hidden;
+  top: 55%;
+  left: 50%;
+  margin-right: -50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: BLACK;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+
+
+
+#join_mafia{
+  position: absolute;
+  display: flex;
+  justify-content:center;
+  overflow: hidden;
+  top: 68%;
+  left: 50%;
+  align-items:center;
+  transform: translate(-50%, -50%);
+
+
+}
+
+/* CSS */
+.button-23 {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+}
+  opacity: 1;
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
