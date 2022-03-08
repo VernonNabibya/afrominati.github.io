@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:black;
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100vh;
+  overflow:hidden;
+  margin: 0;
+}
+
+.counter-container {
+  padding: 10,10;
+  position: absolute;
+  display: flex;
+  /* flex-direction: column; */
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+
+
+
+
+}
+
+.counter {
+  font-size: 15vmin;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* #bars{
+  position: absolute;
+  top:5%;
+  right: 4%;
+  font-size: 23px;
+
+} */
+
+#afrominati_menu{
+  flex-direction:row;
+
+}
+
+#about_afrominati{
+  position: absolute;
+  bottom:18%;
+  right: 4%;
+  color: white;
+  text-decoration: none;
+
+  font-size: 1.8vmin;
+
+}
+/* #contact{
+  position: absolute;
+  top:5%;
+  right: 16%;
+
+  font-size: 13px;
+
+} */
+
+#nairobisins{
+  position: absolute;
+  top:42%;
+  left: 50%;
+  color:#FF3131;
+
+  font-size:23px ;
+
+
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+
+  margin-right: -50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.fas fa-bars{
+  position: absolute;
+  top:7%;
+  left: 7%;
+  font-size: 32px;
+}
+#target_amount{
+  position: absolute;
+  display: flex;
+  top: -10%;
+  font-size:3vmin;
+
+}
+
+#about_nairobisins{
+  color:white;
+  position: absolute;
+  display: flex;
+  font-size:2.7vmin;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+
+}
+
+
+#redsins{
+  color:#FF3131;
+}
+
+
+#join_mafia{
+  position: absolute;
+  display: flex;
+  justify-content:center;
+  overflow: hidden;
+  top: 65%;
+  left: 50%;
+  align-items:center;
+  transform: translate(-50%, -50%);
+
+
+}
+
+/* CSS */
+.button-23 {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 14px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5vmin;
+  font-weight:700;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 2vh 2.3vw;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+}
+  opacity: 1;
+
+/* @media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
+@media only screen and (orientation:portrait){ */
+  body {
+    height: 100vh;
+  }
+
+  @media screen and (orientation: landscape) {
+  body {
+
+      height: : 100vw;
+      transform: rotate(360deg);
+    }
+}
