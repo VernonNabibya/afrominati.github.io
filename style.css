@@ -17,7 +17,7 @@ body {
 }
 
 .counter-container {
-  padding: 10,10;
+
   position: absolute;
   display: flex;
   /* flex-direction: column; */
